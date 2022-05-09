@@ -1,0 +1,25 @@
+{
+  "name": "angular_login",
+  "version": "1.0.0",
+  "description": "Angular application with node,express,mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Nanneboina Sumanth",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0"
+  }
+}
