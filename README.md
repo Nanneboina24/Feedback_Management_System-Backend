@@ -11,10 +11,11 @@ FRAMEWORK : MEAN<br/>
 IDE       : VS CODE<br/>
 
 # Modules
-1) Enroll
-2) Profile
-3) Feedback
-4) PDF
+1) Admin
+2) User
+3) Profile
+4) Feedback
+5) PDF
 
 # Develop by..,
 Nanneboina Sumanth
