@@ -13,7 +13,7 @@ app.use('/auth', authRoute);
 
 
 //mongodb connection            username   password   project-name                       dbname
-mongoose.connect("mongodb+srv://nanneboina:6303309765@angular-mongodb1.c5bcw.mongodb.net/LoginDb",
+mongoose.connect("mongodb+srv://username:password@angular-mongodb1.c5bcw.mongodb.net/LoginDb",
     (err) => {
         if (err) {
             console.log("DB not Connected");
