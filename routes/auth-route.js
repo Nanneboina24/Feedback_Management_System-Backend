@@ -114,5 +114,20 @@ router.post('/fbcheck', (req, res) => {
         })
 })
 
+router.get('/fbadmin', (req, res) => {
+    FBack.find()
+        .exec()
+        .then((result) => {
+            if (result.length > 0) {
+                return res.json({ success: true, message: "Feedback's Retrieve Successfully!", data: result });
+            } else {
+                return res.json({ success: false, message: "No Feedbacks's Enrollment!" });
+            }
+        })
+        .catch((err) => {
+            res.json({ success: false, message: "Server Failed" });
+        })
+})
+
 
 module.exports = router;
