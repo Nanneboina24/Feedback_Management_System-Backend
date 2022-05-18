@@ -1,6 +1,9 @@
 [submodule "Feedback_Management_System-Frontend-"]
+<<<<<<< HEAD
 	path = Feedback_Management_System-Frontend-
 	url = https://github.com/Nanneboina24/Feedback_Management_System-Frontend-.git
 [submodule "Feedback_Management_System-Frontend"]
+=======
+>>>>>>> 477d11fb43687c8cf28f9a26658fb97d00731d56
 	path = Feedback_Management_System-Frontend
 	url = https://github.com/Nanneboina24/Feedback_Management_System-Frontend.git
